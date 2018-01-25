@@ -1,0 +1,32 @@
+{
+  "name": "react-unique-id",
+  "version": "0.0.1",
+  "description": "Minimal Unique ID generator for React Components",
+  "main": "lib/react-unique-id.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "dev": "babel src --out-dir lib --watch",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cizar/react-unique-id.git"
+  },
+  "keywords": [
+    "react",
+    "uniqueid",
+    "hoc"
+  ],
+  "author": "Cesar Kastli <cesarkastli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cizar/react-unique-id/issues"
+  },
+  "homepage": "https://github.com/cizar/react-unique-id#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}

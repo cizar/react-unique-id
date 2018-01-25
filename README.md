@@ -10,7 +10,7 @@ npm install @cizar/react-unique-id --save-dev
 
 ```jsx
 import React from 'react'
-import uniqueId from 'react-unique-id'
+import uniqueId from '@cizar/react-unique-id'
 
 const Input = ({ id, label, name, type, value, onChange }) => (
   <div>

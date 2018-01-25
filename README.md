@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-npm install react-unique-id --save-dev
+npm install @cizar/react-unique-id --save-dev
 ```
 
 ## Usage
